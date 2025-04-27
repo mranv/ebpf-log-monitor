@@ -6,7 +6,7 @@ authors = ["Anubhav Gain <iamanubhavgain@gmail.com>"]
 description = "An eBPF-based system log monitoring tool with security focus"
 
 [dependencies]
-libbpf-rs = "0.19.1"
+libbpf-rs = "0.24.8"
 anyhow = "1.0"
 clap = { version = "4.2", features = ["derive"] }
 time = { version = "0.3", features = ["formatting", "macros"] }
@@ -18,4 +18,4 @@ ctrlc = "3.2"
 libc = "0.2"
 
 [build-dependencies]
-libbpf-cargo = "0.19.1"
+libbpf-cargo = "0.24.8"
